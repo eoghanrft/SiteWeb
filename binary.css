@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Avantgarde", sans-serif;
   }
   body {
     background-color: #FFA500;
@@ -20,12 +20,12 @@
     box-shadow: 0 1.2em 2.5em rgba(0, 21, 44, 0.18);
   }
   h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     color: #0075ff;
     text-align: left;
     font-weight: 600;
-    letter-spacing: 0.5px;
-    margin-bottom: 1.3em;
+    letter-spacing: 0.8px;
+    margin-bottom: 1.5em;
   }
   .wrapper {
     display: flex;

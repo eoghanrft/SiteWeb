@@ -1,44 +1,131 @@
-<style>
-        
-        body {
-            font-family: sans-serif, sans-serif;
+body {
+           font-family: Arial, sans-serif;
         }
         header {
-            background-color: rgb(48, 204, 178);
-            color: #fff;
-            padding: 10px;
-            text-align: left;
+           color: #cc5916;
+           text-align: left;
+           position: absolute;
+           top: 0;
+           left: 10;
         }
         nav {
-            background-color: rgb(209, 120, 19);
-            color: #fff;
+            background-color: #FFF6EF;
+            color: #000000;
             padding: 10px;
-            text-align: left;
-        }
-        main {
-            padding: 20px;
+            text-align: right;
+            color: #ffffff;
+            top: 0;
+            right: 0; 
+
+        
+            
             
         }
-        footer {
-            background-color: rgb(126, 77, 243);
-            color: #fff;
-            padding: 10px;
-            text-align: left;
+        nav ul {
+            list-style: none;
+            padding: 0;
         }
         
-        .button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
+        nav ul li {
+            display: inline;
+            margin: 0 30px;
+            
+            
+            
+        }
+        
+        nav ul li a {
             text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
+            color: #cc5916;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            right: 50px;
+        }
+        a {
+            width: 1520px;
+            height: 15200px;
+            top: 100;
+            color: #ffffff;
+            margin-top: 100px;
+            right: 100;
+        }
+
+        color{
+
+            background-color: #FFF6EF;
+            color: #FFF6EF;
+            padding: 30px;
+            background-size: cover;
+
+            
+        }
+        logo { 
+            width: 290px;
+            height: 290px;
+            position: absolute;
+            margin-top: 10px;
+            left: 0;
+            top: 0;
+        }
+
+        h2{
+            color: #40E0D0;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 190px;
+        }
+
+        
+        main {
+            background-image: url('Wales.jpg'); 
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         
-        table, th, td {
-          border:5px solid rgb(23, 159, 201);
-          background-color: #ca7412;
+        
+        .header-search-container {
+            
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .header-search-container h2 {
+            font-size: 24px;
+            margin-top: 300px;
+        }
+        
+        
+        .search-container {
+            
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .search-container input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        
+        .search-container button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .search-container button:hover {
+            background-color: #0056b3;
         }
         

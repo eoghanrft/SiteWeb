@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+ }
+ header {
+    color: #cc5916;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 10;
+ }
+ nav {
+     background-color: #FFF6EF;
+     color: #000000;
+     padding: 10px;
+     text-align: right;
+     color: #ffffff;
+     top: 0;
+     right: 0; 
+
+ 
+     
+     
+ }
+ nav ul {
+     list-style: none;
+     padding: 0;
+ }
+ 
+ nav ul li {
+     display: inline;
+     margin: 0 30px;
+     
+     
+     
+ }
+ 
+ nav ul li a {
+     text-decoration: none;
+     color: #cc5916;
+     font-size: 20px;
+     font-family: Arial, sans-serif;
+     right: 50px;
+ }
+ a {
+     width: 1520px;
+     height: 15200px;
+     top: 100;
+     color: #ffffff;
+     margin-top: 100px;
+     right: 100;
+ }
+
+ color{
+
+     background-color: #FFF6EF;
+     color: #FFF6EF;
+     padding: 30px;
+     background-size: cover;
+
+     
+ }
+ logo { 
+     width: 290px;
+     height: 290px;
+     position: absolute;
+     margin-top: 10px;
+     left: 0;
+     top: 0;
+ }
+
+ .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFF6EF; /* Background color */
+    color: #cc5916; /* Text color */
+    font-family: Arial, sans-serif; /* Font */
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-family: Arial, sans-serif; /* Font */
+}
+
+button {
+    background-color: #cc5916; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Font */
+}
+
+button:hover {
+    background-color: #a9410f; /* Button background color on hover */
+}
+ 
